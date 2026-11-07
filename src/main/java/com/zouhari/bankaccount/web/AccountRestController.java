@@ -14,6 +14,7 @@ import java.util.UUID;
  * @Pseudo dezy
  **/
 @RestController
+@RequestMapping("/api")
 public class AccountRestController {
 
     private BankAccountRepository bankAccountRepository;
