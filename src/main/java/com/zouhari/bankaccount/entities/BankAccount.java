@@ -29,5 +29,7 @@ public class BankAccount {
     private String currency;
     @Enumerated(EnumType.STRING)
     private AccountType type;
+    @ManyToOne
+    private Customer customer;
 
 }
